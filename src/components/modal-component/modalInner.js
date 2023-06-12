@@ -15,12 +15,15 @@ const ModalInner = props => {
                 <div className="modal-body">
                     {props.children}                
                 </div>
-                <div className="modal-footer row">
+                <div className="modal-footer">
                     <div className="col-2">
                         <button onClick={props.edit} className="btn btn-primary">Edit</button>
                     </div>
-                    <div className="col-2">
-                        <button onClick={props.onClose} className="btn btn-secondary">Close</button>
+                    <div className="col-8">
+                        <button onClick={props.submit} className="btn btn-info">Submit</button>
+                    </div>
+                    <div className="col-1">
+                        <button onClick={props.onClose} className="btn btn-danger">Close</button>
                     </div>
                 </div>
             </div>
