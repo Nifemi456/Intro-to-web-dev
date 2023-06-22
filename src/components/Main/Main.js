@@ -4,7 +4,7 @@ import Logo from "./Waterstone.JPG"
 
 function Main() {
     return(
-        <div>
+        <div > 
             <div className="Logo">
             <img src={Logo} alt="Logo" width="140"></img>
             </div>
