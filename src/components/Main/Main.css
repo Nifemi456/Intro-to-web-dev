@@ -6,11 +6,13 @@
 .Intro {
     font-size: 0.7cm;
     font-weight: 500;
+    color: #999;
 }
   
 h1 {
     font-size: 2.5cm;
     margin-top: 0%;
+    color: darkslategrey;
 }
   
 .Info {
@@ -28,7 +30,7 @@ img {
 
 body {
     background-color: #000000;
-    color: white;
+    color: black;
     height: 16cm;
     background-image: url('C:\Users\Oluwanifemi Ogunnowo\Desktop\HTML\image.png');
     background-position: 90% 10%;

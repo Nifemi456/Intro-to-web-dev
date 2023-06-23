@@ -1,5 +1,4 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Main from '../Main/Main';
 import MyForm from '../Form/Form';
@@ -11,7 +10,7 @@ import Api from '../Api-content/Api-content';
 function App() {
   return (
     <Router>
-      <div className=''>
+      <div>
         <Routes>
 
         <Route path="/" element={<Layout />}>
@@ -31,15 +30,6 @@ function App() {
 
 
 
-
-
-  //  <div>
-  //   <button onClick={() => setShow(true)}>Show modal</button>
-  //   <Modal title="My Modal" onClose={() => setShow(false)} show={show}>
-  //     <p>This is modal body</p>
-  //   </Modal>
-  //  </div>
-    
   );
 }
 

@@ -1,7 +1,6 @@
 import React from 'react'
 import dumpapi from 'C:/Users/Oluwanifemi Ogunnowo/Desktop/HTML/React/hello-wrld-2/src/actions/dumpapi.js'
 import { useEffect, useState } from 'react'
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Modal from '../modal-component/modal';
 
 

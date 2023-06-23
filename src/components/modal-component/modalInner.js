@@ -1,5 +1,4 @@
 import React from "react";
-// import { Form } from "react-bootstrap";
 
 const ModalInner = props => {
     if (!props.show) {

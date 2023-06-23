@@ -1,5 +1,4 @@
 import React from "react";
-import "bootstrap";
 import { useForm } from "react-hook-form";
 
 
