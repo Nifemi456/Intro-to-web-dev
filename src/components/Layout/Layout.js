@@ -10,7 +10,7 @@ import ListItemText from '@mui/material/ListItemText';
 import { mainNavbarItems} from "./consts/navbarItems";
 import { useNavigate } from "react-router-dom";
 
-const drawerWidth = 200;
+const drawerWidth = 150;
 
 const Layout = () => {
   const navigate = useNavigate()
@@ -44,6 +44,7 @@ const Layout = () => {
             </ListItem>
           ))}
         </List>
+        <Divider />
       </Drawer>
   )
 };
